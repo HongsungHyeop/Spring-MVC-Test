@@ -4,13 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Spring MVC 연습</title>
+<title>Insert title here</title>
 </head>
 <body>
-<h2> name    :   ${name} </h2>
-<h2> message :   ${message} </h2>
-
-<jsp:include page="include/menu.jsp"></jsp:include>
-
+	상품명 = ${map.product.name }
+	<br>
+	가격 = ${map.product.price }
 </body>
 </html>
